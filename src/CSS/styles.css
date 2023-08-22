@@ -1,0 +1,243 @@
+.navbar-brand {
+    /* color: #E3CD83; */
+    font-family: 'Jenna Sue';
+    font-size: 3rem;
+    font-weight: 500;
+    padding-left: 2vw;
+    width: 500px;
+    background-image: linear-gradient(to right, #02797C, #00B6BC);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.navbar {
+    font-family: 'Lemon/Milk light', sans-serif;
+    padding: 0;
+    font-size: 1.5rem;
+    position: fixed;
+    width: 100vw;
+    z-index: 3;
+    background-color: #F7F4EA;
+    margin: 0;
+}
+
+.nav-links{
+    position: absolute;
+    right: 2%;
+}
+
+.nav-bar-div {
+    padding: 0 2%;
+    background-color: #F7F4EA;
+    width: 100vw;
+    margin: 0;
+    /* color: #E3CD83; */
+}
+
+.nav-text {
+    /* color: #E3CD83; */
+    background-image: linear-gradient(to right, #02797C, #00B6BC);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.nav-text:hover {
+    background-image: linear-gradient(to right, #B98948, #F7EC9E);
+}
+
+.home-body {
+    
+    background-color: #F7F4EA;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+    z-index: 0;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.alo-menu{
+    background-color: #F7F4EA;
+}
+
+
+
+
+
+.balloons {
+    width: 30%;
+}
+
+.you-are {
+    position: absolute;
+    width: 15%;
+    z-index: 3;
+    color: white;
+    bottom: 0;
+    transform: rotate(-10deg);
+}
+
+/* svg path {
+    fill: white;
+} */
+
+.foot {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    text-align: right;
+}
+
+#player {
+    border-radius: 1.5rem;
+    width: 500px;
+    height: 100px;
+}
+
+.UC {
+    font-family: 'Jenna Sue';
+    text-align: center;
+    font-size: 8vw;
+    position: absolute;
+    width: 100vw;
+    vertical-align: bottom;
+    bottom: 0;
+}
+
+.giphy-embed {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+.JR{
+    font-family: 'Jenna Sue';
+    font-size: 5rem;
+}
+
+figure {      
+    background: #F7F4EA;
+    display: inline-block;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all 0.35s;
+    border-radius: 0.2rem;
+    max-width: 150px;
+}
+
+figure img{
+    filter: sepia(90%);
+    display: block;
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all 0.35s;
+    width: 100%;
+}
+
+figure img:hover{
+    filter: none;
+    transition: all 0.35s;
+}
+
+figure:hover{
+    background: white;
+}
+.top_left_frame{
+    position: fixed;
+    width: 30%;
+    max-width: 300px;
+    /* height: 85vh; */
+    left: 10px;
+    top: 110px;
+    z-index: 1;
+    filter: invert(24%) sepia(81%) saturate(5176%) hue-rotate(170deg) brightness(91%) contrast(98%);
+}
+.top_right_frame{
+    position: fixed;
+    width: 30%;
+    max-width: 300px;
+    /* height: 85vh; */
+    right: 10px;
+    top: 110px;
+    z-index: 1;
+    filter: invert(24%) sepia(81%) saturate(5176%) hue-rotate(170deg) brightness(91%) contrast(98%);
+}
+.bottom_left_frame{
+    position: fixed;
+    width: 30%;
+    max-width: 300px;
+    /* height: 85vh; */
+    left: 10px;
+    bottom: 10px;
+    z-index: 1;
+    filter: invert(24%) sepia(81%) saturate(5176%) hue-rotate(170deg) brightness(91%) contrast(98%);
+}
+.bottom_right_frame{
+    position: fixed;
+    width: 30%;
+    max-width: 300px;
+    /* height: 85vh; */
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+    filter: invert(24%) sepia(81%) saturate(5176%) hue-rotate(170deg) brightness(91%) contrast(98%);
+}
+
+
+
+
+@media (max-width: 800px) {
+    #player {
+        width: 100vw;
+    }
+
+    .foot {
+        z-index: -1;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .you-are {
+        width: 20%;
+        bottom: 101px;
+    }
+
+    .navbar-brand {
+        /* color: #E3CD83; */
+        font-family: 'Jenna Sue';
+        font-size: 3rem;
+        font-weight: 500;
+        padding-left: 2vw;
+        width: 300px;
+    }
+    .home-body{
+        padding-top: 10%;
+    }
+
+    figure{
+        padding: 10px 10px;
+    }
+
+    .JR{
+        font-size: 2rem;
+    }
+}
+
+

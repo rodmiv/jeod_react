@@ -1,0 +1,66 @@
+.alojamiento-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80vh;
+    transform: translate(-50%, -40%);
+    z-index: 9;
+}
+
+#map{
+    height: 100%;
+}
+
+.map-container{
+    height: 70vh;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h2{
+    font-family: "Jenna Sue", 'Feminism';
+    font-size: 5rem;
+}
+
+#content{
+    height: 70vh;
+    padding: 0 3%;
+    background-image: linear-gradient(to right, #02797C, #00B6BC);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: 'Lemon/Milk light';
+
+    text-align: left;
+}
+
+.tab{
+    height: 70vh;
+    display: block;
+} 
+
+@media (max-width: 800px) {
+    h2{
+        font-size: 2rem;
+    }
+
+    #content{
+        font-size: 0.9rem;
+        height: 30vh;
+        padding: 0 10%;
+    }
+
+    .tab{
+        font-size: 0.9rem;
+        height: 20vh;
+        display: block;
+    }
+
+    .map-container{
+        height: 50vh;
+        overflow-y:scroll;
+    }
+}

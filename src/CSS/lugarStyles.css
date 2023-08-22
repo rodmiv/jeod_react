@@ -1,0 +1,32 @@
+.frame-evento{
+    width: 97%;
+    height: 91.5%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+}
+
+.explicacion-lugar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 30vw;
+    max-height: 80vh;
+}
+
+@media (max-width: 800px) {
+    .frame-evento{
+        width: 97%;
+        height: 86%;
+        top: 79px;
+    }
+
+    .explicacion-lugar{
+        width: 80vw;
+    }
+}
+

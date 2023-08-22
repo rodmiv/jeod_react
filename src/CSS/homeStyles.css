@@ -1,0 +1,122 @@
+.logo {
+    /* width: 50vw;
+    height: 100vh; */
+    font-family: 'Jenna Sue';
+    /* position: absolute; */
+    /* right: 0; */
+    background-image: linear-gradient(to right, #02797C, #00B6BC);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.home-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    height: 80vh;
+}
+
+
+
+.img-home{
+    /* position: relative; */
+    right: 20%;
+    bottom: 100px;
+    width: 30%;
+}
+
+.img1-home {
+    transform: rotate(-40deg);
+}
+
+.img2-home {
+    transform: rotate(-30deg);
+}
+
+.img3-home {
+    transform: rotate(10deg);
+}
+
+.img4-home {
+    transform: rotate(-10deg);
+}
+
+.images-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+    /* width: 8%; */
+    /* max-width: 150px;
+    min-width: 100px;
+    bottom: 350px;
+    right: 0; */
+}
+
+
+
+
+
+.home-row{
+    height: 100%;
+}
+
+.house {
+    width: 60%;
+    max-width: 250px;
+    z-index: 0;
+}
+
+.home-text {
+    font-family: 'Lemon/Milk light';
+    margin-top: 20px;
+    color: #ffff;
+    font-size: 125%;
+}
+
+
+@media (max-width: 800px) {
+    .img-home {
+        bottom: 150px;
+        left: 40%;
+        width: 28%;
+        /* transform: translate(-60%, 0); */
+    }
+
+    .img1-home {
+        transform: rotate(-40deg);
+    }
+    
+    .img2-home {
+        transform: rotate(-30deg);
+    }
+    
+    .img3-home {
+        transform: rotate(10deg);
+    }
+    
+    .img4-home {
+        transform: rotate(-10deg);
+    }
+    
+    .house {
+        width: 25%;
+        z-index: 0;
+    }
+
+    .container{
+        margin: 0;
+        max-width: 100%;
+    }
+
+    
+    .home-text{
+        font-size: 0.9rem;
+    }
+}
